@@ -19,7 +19,7 @@ export default function About({url}){
             <p>{about.bio}</p>
         </div>
         )
-    }
+    } 
 
     return about ? loaded() : <h1>loading....</h1>
 }
